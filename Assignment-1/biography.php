@@ -24,7 +24,7 @@ The motto painted on the main wall says it all:
     <p>"Baked with heart (and sometimes a little luck)".</p>
 </blockquote>
 
-<img src="images/aram-chef.jpg" alt="Aram DelaCroûte photo" width="600" height="400"/>
+<img src="images/aram-chef.jpg" alt="Aram DelaCroûte photo" width="400" height="400"/>
     </article>
 
             <aside>
@@ -53,7 +53,7 @@ The motto painted on the main wall says it all:
 
     
       <h4><strong>Follow Us</strong></h4>
-      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a> 
+      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a>| 
         
       <a href="https://www.instagram.com/ron_alejandria/?next=%2F" class="social-link">Instagram</a>
     

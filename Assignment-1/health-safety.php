@@ -55,7 +55,7 @@
   <blockquote>
     “Here, even the mozzarella looks like it passed a medical exam.”
   </blockquote>
-  <img src="doctor.jpg" alt="Dr. Giacomo Lefèvre photo" width="600" height="400"/>
+  <img src="images/doctor.jpg" alt="Dr. Giacomo Lefèvre photo" width="500" height="400"/>
 </section>
 
             <aside>
@@ -84,7 +84,7 @@
 
     
              <h4><strong>Follow Us</strong></h4>
-             <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a> 
+             <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a>| 
         
              <a href="https://www.instagram.com/ron_alejandria/?next=%2F" class="social-link">Instagram</a>
     

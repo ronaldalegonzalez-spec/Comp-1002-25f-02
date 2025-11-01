@@ -15,8 +15,7 @@
 
             <main>
                 <h2>Are you ready for Pizza?</h2>
-             <p>Experience the unique blend of  <em>French technique and Italian</em> passion at <strong>ARAM' PIZZA PIZZERIA</strong>. Our pizzas are crafted with love and a touch of our chefs since the first version of the restaurant in 1973. Whether you're a local or a curious traveler, our doors are open to welcome you to a world of delicious flavors and lively atmosphere.</p>
-                <button rel="start request" href="login.php">Order pizza</button>
+             <p>Experience the unique blend of  <em>French technique and Italian</em> passion at <strong>ARAM' PIZZA PIZZERIA</strong>. Our pizzas are crafted with love and a touch of our chefs since the first version of the restaurant in 1973. Whether you're a local or a curious traveler, our doors are open to welcome you to a world of delicious flavors and lively atmosphere.</p>|
             <button onclick="window.location.href='login.php';">Order Pizza</button>
             
 
@@ -55,7 +54,7 @@
 
     
       <h4><strong>Follow Us</strong></h4>
-      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a> 
+      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a>|
         
       <a href="https://www.instagram.com/ron_alejandria/?next=%2F" class="social-link">Instagram</a>
     
