@@ -14,28 +14,32 @@
             <a href="register.php">Register</a>
             </header>
 
+            <main>
+                <h2>Are you ready for Pizza?</h2>
+             <p>Experience the unique blend of  <em>French technique and Italian</em> passion at <strong>ARAM' PIZZA PIZZERIA</strong>. Our pizzas are crafted with love and a touch of our chefs since the first version of the restaurant in 1973. Whether you're a local or a curious traveler, our doors are open to welcome you to a world of delicious flavors and lively atmosphere.</p>
+                <button rel="start request" href="login.php">Order pizza</button>
+            
+            </main>
 
-            <h2>Are you ready for Pizza?</h2>
-            <p>Experience the unique blend of French technique and Italian passion at ARAM' PIZZA PIZZERIA. Our pizzas are crafted with love, humor, and a touch of culinary accident that started it all back in 1973. Whether you're a local or a curious traveler, our doors are open to welcome you to a world of delicious flavors and lively atmosphere.</p>
-            <button href="login.php">Order pizza</button>
-            
-            
-            <aside>
-                <h3>About Us</h3>
-                <p>Discover the story behind ARAM' PIZZA PIZZERIA</p>
-                <a href="biography.php">Read more</a>
-                <h3>Health & Safety</h3>
-                <p>Your safety is our priority. Learn about our health measures.</p>
-                <a href="health-safety.php">Read more</a>
+            <aside class="sidebar">
+                <img src="images/pizza-francesa.jpg" alt="Pizza from ARAM' PIZZA PIZZERIA" width="300" height="200"/>
+                <nav>
+                 <h3>About Us</h3>
+                 <a href="biography.php">Discover the story behind ARAM' PIZZA PIZZERIA</a>
+                 <h3>Health & Safety</h3>
+                    <p>Your safety is our priority.</p>
+                    <a href="health-safety.php">Learn about our health measures.</a>
+                    <a href="menu.php">Menu</a>
+                </nav>
             </aside>
-
+                
+				
 
             
             <footer class="footer">
   
       <h3><strong>ARAM' PIZZA PIZZERIA</strong></h3>
-      <p>The authentic fusion of Italy and France in every bite.
-Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
+      <p>The authentic fusion of Italy and France in every bite. Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
     
 
    
@@ -62,3 +66,5 @@ Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
     <p lang="fr">© 2025 ARAM' PIZZA PIZZERIA — Tradizione Italiana & Saveur Française</p>
   
 </footer>
+</body>
+</html>
