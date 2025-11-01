@@ -13,7 +13,7 @@
             <h1>Complete order</h1>
             </header>
 
-                <h2>🍕 Your ARAM' PIZZA PIZZERIA Order Confirmation</h2>
+                <h2>Your ARAM' PIZZA PIZZERIA Order Confirmation</h2>
 
 <?php
 // Get the data from the POST request
@@ -33,7 +33,7 @@ $special = $_POST["specialInstructions"];
 echo("<p>Thank you, <strong>$name</strong>! Your order has been received successfully.</p>");
 echo("<p>We’ll contact you shortly at <strong>$phone</strong> or <strong>$email</strong> to confirm your order.</p>");
 
-echo("<h3>🧾 Order Summary:</h3>");
+echo("<h3>Order Summary:</h3>");
 echo("<ul>");
 echo("<li><strong>Number of Pizzas:</strong> $quantity</li>");
 echo("<li><strong>Size:</strong> $size slices</li>");
@@ -58,6 +58,10 @@ if (!empty($special)) {
 
 echo("<p><strong>Delivery Address:</strong> $address</p>");
 ?>
-
+<aside>
+                <?php
+	                include("navegation/nav.php");
+                ?>
+            </aside>
 </body>
 </html>

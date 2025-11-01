@@ -16,7 +16,7 @@
             <main>
                 <form action="order-confirmation.php" method="post" id="pizzaOrderForm" class="pizza-form">
 
-  <h2>🍕 Order Your Pizza from ARAM' PIZZA PIZZERIA</h2>
+  <h2>Order Your Pizza from ARAM' PIZZA PIZZERIA</h2>
   <p>Please fill out the form below to customize your order. We’ll make it hot, fresh, and delicious!</p>
 
   <!-- Customer Information -->
@@ -113,7 +113,11 @@
     <button type="submit" value="Place Order"></button><button type="reset" value="Reset Form"></button>
    
   </fieldset>
-
+<aside>
+                <?php
+	                include("navegation/nav.php");
+                ?>
+            </aside>
 </form>
 </main>
 
