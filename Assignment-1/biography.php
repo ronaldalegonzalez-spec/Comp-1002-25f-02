@@ -32,7 +32,7 @@ The motto painted on the main wall says it all:
                 ?>
             </aside>
 
-        <footer class="footer">
+       <footer class="footer">
   
       <h3><strong>ARAM' PIZZA PIZZERIA</strong></h3>
       <p>The authentic fusion of Italy and France in every bite. Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
@@ -40,23 +40,23 @@ The motto painted on the main wall says it all:
 
    
       <h4><strong>Contact</strong></h4>
-      <p>📍 123 Via Roma, Paris, Francia</p>
-      <p>📞 +33 6 12 34 56 78</p>
-      <p>📧 contacto@arampizza.com</p>
+      <p>📍 123 Maple Avenue, Toronto, ON, Canada</p>
+      <p>📞 +1 (416) 555-2742</p>
+      <p>📧 info@arampizza.ca</p>
+      
     
-
-    
-      <h4><strong>Horario</strong></h4>
-      <p>Lunes - Viernes: 11:00 - 23:00</p>
-      <p>Sábado - Domingo: 12:00 - 00:00</p>
+      <h4><strong>Schedule</strong></h4>
+      <p>Monday - Friday: 10:00 - 20:00</p>
+      <p>Saturday - Sunday: 9:00 - 23:00</p>
    
 
     
       <h4><strong>Follow Us</strong></h4>
-      <a href="#" class="social-link">Facebook</a> |
-      <a href="#" class="social-link">Instagram</a> |
-      <a href="#" class="social-link">TikTok</a>
-    
+      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/" target="_blank">
+        <img src="images/facebook-icon.png" alt="Facebook" class="social-icon"></a> 
+      <a href="https://www.instagram.com/ron_alejandria/?next=%2F" target="_blank">
+        <img src="images/instagram-icon.png" alt="Instagram" class="social-icon"></a>
+    <p>Disclaimer (pricing, availability, nutrition licenses)</p>
 
  
     <p lang="fr">© 2025 ARAM' PIZZA PIZZERIA — Tradizione Italiana & Saveur Française</p>
