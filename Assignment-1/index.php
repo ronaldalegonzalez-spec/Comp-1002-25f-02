@@ -16,12 +16,17 @@
 
 
             <h2>Are you ready for Pizza?</h2>
-            <a href="login.php">Order pizza</a> | 
+            <p>Experience the unique blend of French technique and Italian passion at ARAM' PIZZA PIZZERIA. Our pizzas are crafted with love, humor, and a touch of culinary accident that started it all back in 1973. Whether you're a local or a curious traveler, our doors are open to welcome you to a world of delicious flavors and lively atmosphere.</p>
+            <button href="login.php">Order pizza</button>
+            
             
             <aside>
                 <h3>About Us</h3>
                 <p>Discover the story behind ARAM' PIZZA PIZZERIA</p>
                 <a href="biography.php">Read more</a>
+                <h3>Health & Safety</h3>
+                <p>Your safety is our priority. Learn about our health measures.</p>
+                <a href="health-safety.php">Read more</a>
             </aside>
 
 
@@ -34,7 +39,7 @@ Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
     
 
    
-      <h4><strong>Contacto</strong></h4>
+      <h4><strong>Contact</strong></h4>
       <p>📍 123 Via Roma, Paris, Francia</p>
       <p>📞 +33 6 12 34 56 78</p>
       <p>📧 contacto@arampizza.com</p>
@@ -47,13 +52,13 @@ Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
    
 
     
-      <h4><strong>Síguenos</strong></h4>
+      <h4><strong>Follow Us</strong></h4>
       <a href="#" class="social-link">Facebook</a> |
       <a href="#" class="social-link">Instagram</a> |
       <a href="#" class="social-link">TikTok</a>
     
 
  
-    <p>© 2025 ARAM' PIZZA PIZZERIA — Tradizione Italiana & Saveur Française 🍕</p>
+    <p lang="fr">© 2025 ARAM' PIZZA PIZZERIA — Tradizione Italiana & Saveur Française</p>
   
 </footer>
