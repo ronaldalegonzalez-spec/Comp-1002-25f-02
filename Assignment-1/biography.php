@@ -20,10 +20,11 @@
 For decades, the restaurant became a gathering place for locals, artists, and curious travelers. Its laid-back atmosphere and playfully named pizzas (<strong>“La Tragedie du Fromage,” “La Baguetta Calzone”</strong>) made it a local legend.
 In 2024, the new generation of the DelaCroûte family decided to refresh the space without losing its soul. Now, with a modern and minimalist design, Aram’s spirit lives on — warm, a little chaotic, but always delicious.
 The motto painted on the main wall says it all:
+<blockquote>
+    <p>"Baked with heart (and sometimes a little luck)".</p>
+</blockquote>
 
-<q>Baked with heart (and sometimes a little luck).</q></p>
-
-<img src="images/aran-chef.jpg" alt="Aram DelaCroûte photo" width="600" height="400"/>
+<img src="images/aram-chef.jpg" alt="Aram DelaCroûte photo" width="600" height="400"/>
     </article>
 </main>
             <aside>
@@ -52,10 +53,10 @@ The motto painted on the main wall says it all:
 
     
       <h4><strong>Follow Us</strong></h4>
-      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/" target="_blank">
-        <img src="images/facebook-icon.png" alt="Facebook" class="social-icon"></a> 
-      <a href="https://www.instagram.com/ron_alejandria/?next=%2F" target="_blank">
-        <img src="images/instagram-icon.png" alt="Instagram" class="social-icon"></a>
+      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a> 
+        
+      <a href="https://www.instagram.com/ron_alejandria/?next=%2F" class="social-link">Instagram</a>
+    
     <p>Disclaimer (pricing, availability, nutrition licenses)</p>
 
  
