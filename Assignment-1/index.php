@@ -54,12 +54,14 @@
       <p>Saturday - Sunday: 9:00 - 23:00</p>
    
 
-    
+    <div class="footer-section social">
       <h4><strong>Follow Us</strong></h4>
       <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/" target="_blank">
         <img src="images/facebook-icon.png" alt="Facebook" class="social-icon"></a> 
+        
       <a href="https://www.instagram.com/ron_alejandria/?next=%2F" target="_blank">
-        <img src="images/instagram-icon.png" alt="Instagram" class="social-icon"></a>
+        <img src="images/instagram-icon.jpg" alt="Instagram" class="social-icon"></a>
+    </div>
     <p>Disclaimer (pricing, availability, nutrition licenses)</p>
 
  
