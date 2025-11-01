@@ -3,17 +3,57 @@
     <head>
         <meta charset="UTF-8">
         <meta name="Pizzeria" content="Info about ARAM' PIZZA PIZZERIA and options to order pizza online">
-        <link rel="shortcut icon" href="images/ARAM PIZZA ICON.jpg" type="image/x-icon" />
+        <link rel="icon" href="images/aram-pizza-icon.jpg" type="image/x-icon" />
         <link rel="stylesheet" href="css/stylish.css" />
-        <title>Welcome to ARAM' PIZZA PIZZERIA</title>
+        <title>ARAM' PIZZA PIZZERIA</title>
     </head>
         <body>
             <header>
-                <img href="images/ARAM PIZZA ICON.jpg" height="75" width="75" alt="ARAM' PIZZA PIZZERIA Logo" />
-            <h1>ARAM' PIZZA PIZZERIA</h1>
+                <img src="images/aram-pizza-icon.jpg" height="75" width="75" alt="ARAM' PIZZA PIZZERIA Logo" />
+            <h1>Welcome to ARAM' PIZZA PIZZERIA</h1>
+            <a href="register.php">Register</a>
             </header>
 
 
             <h2>Are you ready for Pizza?</h2>
-            <a href="../login.php">Order pizza</a> | 
-            <a href="../register.php">Register</a>
+            <a href="login.php">Order pizza</a> | 
+            
+            <aside>
+                <h3>About Us</h3>
+                <p>Discover the story behind ARAM' PIZZA PIZZERIA</p>
+                <a href="biography.php">Read more</a>
+            </aside>
+
+
+            
+            <footer class="footer">
+  
+      <h3><strong>ARAM' PIZZA PIZZERIA</strong></h3>
+      <p>The authentic fusion of Italy and France in every bite.
+Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
+    
+
+   
+      <h4><strong>Contacto</strong></h4>
+      <p>📍 123 Via Roma, Paris, Francia</p>
+      <p>📞 +33 6 12 34 56 78</p>
+      <p>📧 contacto@arampizza.com</p>
+    
+
+    
+      <h4><strong>Horario</strong></h4>
+      <p>Lunes - Viernes: 11:00 - 23:00</p>
+      <p>Sábado - Domingo: 12:00 - 00:00</p>
+   
+
+    
+      <h4><strong>Síguenos</strong></h4>
+      <a href="#" class="social-link">Facebook</a> |
+      <a href="#" class="social-link">Instagram</a> |
+      <a href="#" class="social-link">TikTok</a>
+    
+
+ 
+    <p>© 2025 ARAM' PIZZA PIZZERIA — Tradizione Italiana & Saveur Française 🍕</p>
+  
+</footer>
