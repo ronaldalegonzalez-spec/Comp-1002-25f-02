@@ -11,7 +11,6 @@
             <header>
                 <img src="images/aram-pizza-icon.jpg" height="75" width="75" alt="ARAM' PIZZA PIZZERIA Logo" />
             <h1>Welcome to ARAM' PIZZA PIZZERIA</h1>
-            <a href="register.php">Register</a>
             </header>
 
             <main>
@@ -19,7 +18,7 @@
              <p>Experience the unique blend of  <em>French technique and Italian</em> passion at <strong>ARAM' PIZZA PIZZERIA</strong>. Our pizzas are crafted with love and a touch of our chefs since the first version of the restaurant in 1973. Whether you're a local or a curious traveler, our doors are open to welcome you to a world of delicious flavors and lively atmosphere.</p>
                 <button rel="start request" href="login.php">Order pizza</button>
             <button onclick="window.location.href='login.php';">Order Pizza</button>
-            </main>
+            
 
             <aside class="sidebar">
                 <img src="images/pizza-francesa.jpg" alt="Pizza from ARAM' PIZZA PIZZERIA" width="300" height="200"/>
@@ -32,7 +31,7 @@
                     
                 </nav>
             </aside>
-                
+                </main>
 				
 
             

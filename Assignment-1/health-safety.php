@@ -57,13 +57,13 @@
   </blockquote>
   <img src="doctor.jpg" alt="Dr. Giacomo Lefèvre photo" width="600" height="400"/>
 </section>
-</main>
+
             <aside>
                 <?php
 	                include("navegation/nav.php");
                 ?>
             </aside>
-
+</main>
             <footer class="footer">
   
             <h3><strong>ARAM' PIZZA PIZZERIA</strong></h3>

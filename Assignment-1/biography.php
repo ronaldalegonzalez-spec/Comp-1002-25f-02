@@ -26,13 +26,13 @@ The motto painted on the main wall says it all:
 
 <img src="images/aram-chef.jpg" alt="Aram DelaCroûte photo" width="600" height="400"/>
     </article>
-</main>
+
             <aside>
                 <?php
 	                include("navegation/nav.php");
                 ?>
             </aside>
-
+</main>
        <footer class="footer">
   
       <h3><strong>ARAM' PIZZA PIZZERIA</strong></h3>
