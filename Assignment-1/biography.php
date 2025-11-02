@@ -14,7 +14,7 @@
             </header>
 <main>
     <article>
-<p>Founded in 1973 in a small corner of Lyon, <strong>ARAM' PIZZA PIZZERIA</strong> was born from an idea as absurd as it was brilliant. Its creator, Aram DelaCroûte, was a young baker frustrated because his baguettes always ended up round and covered in tomato sauce. One day, after an unfortunate encounter involving a bicycle wheel, a block of cheese, and an overly enthusiastic oven, Aram accidentally invented the first “French pizza with Italian spirit.”</p>
+<p>Founded in 1973 in a small corner of Lyon, <strong>ARAM' PIZZA PIZZERIA</strong> was born from an idea as absurd as it was brilliant. Its creator, Dlanor Aram DelaCroûte, was a young baker frustrated because his baguettes always ended up round and covered in tomato sauce. One day, after an unfortunate encounter involving a bicycle wheel, a block of cheese, and an overly enthusiastic oven, Aram accidentally invented the first “French pizza with Italian spirit.”</p>
 
 <p>Over time, Aram decided to take his culinary accident seriously. He traveled to Italy to learn <em>“the art of pizza”</em> and came back convinced he could unite the best of both worlds: French technique and Italian passion. Thus, ARAM' PIZZA PIZZERIA was born — a small restaurant filled with the aroma of freshly baked bread, homemade sauces, and lively debates about which wine pairs best with a classic Margherita.
 For decades, the restaurant became a gathering place for locals, artists, and curious travelers. Its laid-back atmosphere and playfully named pizzas (<strong>“La Tragedie du Fromage,” “La Baguetta Calzone”</strong>) made it a local legend.

@@ -8,6 +8,7 @@
     <title>ARAM' PIZZA PIZZERIA</title>
 </head>
 <body>
+  <!--header with the title-->
 <header class="main-header">
     <img src="images/aram-pizza-icon.jpg" alt="ARAM' PIZZA PIZZERIA Logo" class="logo" />
     <h1>Design your favorite pizza!</h1>
@@ -17,7 +18,7 @@
 <form action="order-confirmation.php" method="post" id="pizzaOrderForm" class="pizza-form">
   <h2>Order Your Pizza</h2>
   <p>Please fill out the form below to customize your order.</p>
-
+<!-- customer info-->
   <fieldset>
     <legend>Customer Information</legend>
     <label>Full Name:</label>
@@ -29,12 +30,12 @@
     <label>Address:</label>
     <textarea name="address" rows="3" required></textarea>
   </fieldset>
-
+<!-- costumize the pizza-->
   <fieldset>
     <legend>Pizza Details</legend>
     <label>Number of Pizzas:</label>
     <input type="number" name="quantity" min="1" max="10" value="1">
-
+<!-- define the size-->
     <label>Size:</label>
     <select name="size">
       <option>Small (6 slices)</option>
@@ -42,20 +43,20 @@
       <option>Large (10 slices)</option>
       <option>Extra Large (12 slices)</option>
     </select>
-
+<!-- define the shape-->
     <label>Shape:</label>
     <div class="radio-group">
       <input type="radio" name="shape" value="Round" checked> Round
       <input type="radio" name="shape" value="Square"> Square
     </div>
-
+<!-- define the crush type-->
     <label>Crust Type:</label>
     <div class="radio-group">
       <input type="radio" name="crust" value="Thin Crust" checked> Thin
       <input type="radio" name="crust" value="Deep Dish"> Deep Dish
       <input type="radio" name="crust" value="Stuffed Crust"> Stuffed
     </div>
-
+<!--toppins-->
     <label>Toppings:</label>
     <div class="checkbox-group">
       <label><input type="checkbox" name="toppings[]" value="Pepperoni"> Pepperoni</label>
@@ -65,7 +66,7 @@
       <label><input type="checkbox" name="toppings[]" value="Olives"> Olives</label>
       <label><input type="checkbox" name="toppings[]" value="Bacon"> Bacon</label>
     </div>
-
+<!-- a text area to add instructions-->
     <label>Special Instructions:</label>
     <textarea name="specialInstructions" rows="3"></textarea>
   </fieldset>
@@ -76,14 +77,14 @@
     <input type="radio" name="orderType" value="Delivery"> Delivery
     <input type="radio" name="orderType" value="Eat-in"> Eat-in
   </fieldset>
-
+<!-- buttons " submit and reset"-->
   <fieldset class="submit-field">
     <button type="submit" class="btn-primary">Submit</button>
     <button type="reset" class="btn-secondary">Reset</button>
   </fieldset>
 </form>
 </main>
-
+<!-- footer-->
 <?php include("footer.php"); ?>
 </body>
 </html>

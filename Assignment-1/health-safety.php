@@ -10,6 +10,7 @@
         <body>
             <header>
                 <img src="images/aram-pizza-icon.jpg" height="75" width="75" alt="ARAM' PIZZA PIZZERIA Logo" />
+                <!--title of the page -->
             <h1>Health & Safety at ARAM' PIZZA PIZZERIA</h1>
             </header>
 <main>
@@ -20,7 +21,7 @@
     At <strong>ARAM' PIZZA PIZZERIA</strong>, we take health very seriously… even if our cheese prefers to bask in the sunlight. 
     Here, with full transparency and dedication, we share all the measures we take to ensure every pizza arrives hot, safe, and delicious.
   </p>
-
+<!--description of the Higiene Commitments-->
   <h3>Our Hygiene Commitments</h3>
   <ul>
     <li><strong>Continuous training:</strong> our entire team receives monthly training in food handling, allergen control, and hygiene practices.</li>
@@ -37,6 +38,7 @@
   </ul>
 </section>
 <section>
+  <!--another description of the Higiene Commitments-->
   <h3>Little Touches from Our Kitchen</h3>
   <p>
     Our oven performs its own “stretching exercises” between batches to keep the heat perfectly balanced, 
@@ -45,6 +47,7 @@
   </p>
 </section>
 <section>
+  <!--description of Honorary Recognition-->
   <h3>Honorary Recognition</h3>
   <p>
     We are proud to hold the title of <em>“Golden Seal of Food Safety and Gastronomic Well-Being”</em>, 
@@ -57,13 +60,14 @@
   </blockquote>
   <img src="images/doctor.jpg" alt="Dr. Giacomo Lefèvre photo" width="500" height="400"/>
 </section>
-
+<!--navegation-->
             <aside>
                 <?php
 	                include("navegation/nav.php");
                 ?>
             </aside>
 </main>
+<!-- footer-->
             <?php include("footer.php"); ?>
  </body>
 </html>
