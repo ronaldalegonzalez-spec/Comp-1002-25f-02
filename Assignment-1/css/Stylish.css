@@ -1,0 +1,131 @@
+/* ---- GENERAL ---- */
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+/* Header */
+.main-header {
+  background: linear-gradient(90deg, #b22222, #f4c430, #2e8b57);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.btn-primary {
+  background-color: #b22222;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #8b1a1a;
+}
+.btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+.btn-secondary:hover {
+  background-color: #aaa;
+}
+
+/* Forms */
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+legend {
+  font-weight: bold;
+  color: #b22222;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.radio-group, .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Footer */
+.footer {
+  background: #2c2c2c;
+  color: #fff8f0;
+  text-align: center;
+  padding: 2rem;
+}
+.footer a {
+  color: #f4c430;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+}
+
+/* Images */
+.pizza-image {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+/* Layout */
+.content {
+  padding: 1rem;
+}
+.sidebar {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+  form {
+    width: 90%;
+  }
+  .main-header h1 {
+    font-size: 1.5rem;
+  }
+  .logo {
+    width: 60px;
+  }
+  .social-icon {
+    width: 28px;
+  }
+}
