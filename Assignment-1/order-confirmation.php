@@ -58,10 +58,8 @@ if (!empty($special)) {
 
 echo("<p><strong>Delivery Address:</strong> $address</p>");
 ?>
-<aside>
-                <?php
-	                include("navegation/nav.php");
-                ?>
-            </aside>
+<button onclick="window.location.href='index.html';">Return to Home</button>
+
+<?php include("footer.php"); ?>
 </body>
 </html>

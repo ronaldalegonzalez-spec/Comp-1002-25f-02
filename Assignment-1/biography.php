@@ -33,35 +33,6 @@ The motto painted on the main wall says it all:
                 ?>
             </aside>
 </main>
-       <footer class="footer">
-  
-      <h3><strong>ARAM' PIZZA PIZZERIA</strong></h3>
-      <p>The authentic fusion of Italy and France in every bite. Fresh ingredients, artisanal dough, and a flavor that will win you over.</p>
-    
-
-   
-      <h4><strong>Contact</strong></h4>
-      <p>📍 123 Maple Avenue, Toronto, ON, Canada</p>
-      <p>📞 +1 (416) 555-2742</p>
-      <p>📧 info@arampizza.ca</p>
-      
-    
-      <h4><strong>Schedule</strong></h4>
-      <p>Monday - Friday: 10:00 - 20:00</p>
-      <p>Saturday - Sunday: 9:00 - 23:00</p>
-   
-
-    
-      <h4><strong>Follow Us</strong></h4>
-      <a href="https://www.facebook.com/samuel.segurauvidia/videos/922348928360082/"class="social-link">Facebook</a>| 
-        
-      <a href="https://www.instagram.com/ron_alejandria/?next=%2F" class="social-link">Instagram</a>
-    
-    <p>Disclaimer (pricing, availability, nutrition licenses)</p>
-
- 
-    <p lang="fr">© 2025 ARAM' PIZZA PIZZERIA — Tradizione Italiana & Saveur Française</p>
-  
-</footer>
+       <?php include("footer.php"); ?>
 </body>
 </html>
