@@ -27,7 +27,7 @@ $orderType = $_POST["orderType"];
 $toppings = isset($_POST["toppings"]) ? $_POST["toppings"] : [];
 $special = $_POST["specialInstructions"];
 
-// Display confirmation message
+//Display confirmation message
 echo("<p>Thank you, <strong>$name</strong>! Your order has been received successfully.</p>");
 echo("<p>We’ll contact you shortly at <strong>$phone</strong> or <strong>$email</strong> to confirm your order.</p>");
 
