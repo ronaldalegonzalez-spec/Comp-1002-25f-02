@@ -36,8 +36,8 @@ html {
     
     /* 3. Posicionamiento (Centrado justo encima del título) */
     position: absolute;
-    top: 89.8%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
-    left: 5%;
+    top: 90.2%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
+    left: 2%;
     transform: translateX(-0%); /* Centrado perfecto */
     margin: 0; /* Elimina el margen predeterminado del h3 */
   
@@ -58,8 +58,8 @@ html {
     
     /* 3. Posicionamiento (Centrado justo encima del título) */
     position: absolute;
-    top: 91%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
-    left: 5%;
+    top: 91.6%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
+    left: 1%;
     transform: translateX(-0%); /* Centrado perfecto */
     margin: 0; /* Elimina el margen predeterminado del h3 */
   
@@ -163,15 +163,41 @@ p.director{
 color:gray;
 font-size:0.8rem;
 }
+
 .small2{
 color:gray;
-font-size: 5px;
+font-size: 55%;
 }
-.links1{
+
+.links1 > a{
+    position: absolute;
+    font-size: 12px;
+    top: 95%;/* distancia desde la parte superior de la página */
+    left: 20%;/* punto de referencia horizontal */
+    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    text-align: center;
+    font-family:  Arial, sans-serif;
+    white-space: nowrap;
+    color: white;
+}
+
+.links2 > a{
     position: absolute;
     font-size: 12px;
     top: 95%;/* distancia desde la parte superior de la página */
     left: 50%;/* punto de referencia horizontal */
+    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    text-align: center;
+    font-family:  Arial, sans-serif;
+    white-space: nowrap;
+    color: white;
+}
+
+.links3 > a{
+    position: absolute;
+    font-size: 12px;
+    top: 95%;/* distancia desde la parte superior de la página */
+    left: 80%;/* punto de referencia horizontal */
     transform: translateX(-50%); /* centra exactamente horizontalmente */
     text-align: center;
     font-family:  Arial, sans-serif;
