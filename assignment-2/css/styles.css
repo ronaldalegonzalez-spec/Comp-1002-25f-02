@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/* font used for the title "EXORCIST" */
 @font-face {
     font-family: 'Playfair Display';
     src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
@@ -7,7 +7,7 @@
     font-weight: 700;
     font-style: normal;
 }
-
+ /* font used for the rest of the text */
 @font-face {
     font-family: 'Franklin Gothic Condensed';
     src: url('../fonts/FranklinGothicCondensed.woff2') format('woff2'),
@@ -15,7 +15,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+  /* background of the page and the img of the poster */
 html {
     background-color: rgb(10, 10, 10);
     height:100%;
@@ -23,116 +23,119 @@ html {
    background-size:cover;
    background-repeat: no-repeat;
 }
+   /* credits below the title(first line) */
 .credits {
     font-family: 'Franklin Gothic Condensed', Arial, sans-serif;
     color: white; 
     text-transform: uppercase;
 
-     /* 2. Tamaño y espaciado (más pequeño que el título) */
-    font-size: 0.27cm; /* O el tamaño que consideres adecuado */
+     /*Size and spacing (smaller than the title) */
+    font-size: 0.27cm; /*size*/
    
     letter-spacing: 0%;
     word-spacing: 0%;
     
-    /* 3. Posicionamiento (Centrado justo encima del título) */
+   /*Positioning (Centered directly above the title) */
     position: absolute;
-    top: 90.2%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
+    top: 90.2%; /* Adjust this distance so that it's directly above h1 */
     left: 2%;
-    transform: translateX(-0%); /* Centrado perfecto */
-    margin: 0; /* Elimina el margen predeterminado del h3 */
+    transform: translateX(-0%); /* Perfectly centered */
+    margin: 0; /* Removes the default margin of the h3 */
   
     text-align: right;
    white-space: nowrap;
 }
-
+/* credits below the title(second line) */
 .credits2 {
     font-family: 'Franklin Gothic Condensed', Arial, sans-serif;
     color: white; 
     text-transform: uppercase;
 
-     /* 2. Tamaño y espaciado (más pequeño que el título) */
-    font-size: 0.3cm; /* O el tamaño que consideres adecuado */
+     /*Size and spacing (smaller than the title) */
+    font-size: 0.3cm; /*size*/
    
     letter-spacing: 0%;
     word-spacing: 0%;
     
-    /* 3. Posicionamiento (Centrado justo encima del título) */
+    /*Positioning (Centered directly above the title) */
     position: absolute;
-    top: 91.6%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
+    top: 91.6%;/* Adjust this distance so that it's directly above h1 */
     left: 1%;
-    transform: translateX(-0%); /* Centrado perfecto */
-    margin: 0; /* Elimina el margen predeterminado del h3 */
+    transform: translateX(-0%);/* Perfectly centered */
+    margin: 0; /* Removes the default margin of the h3 */
   
     text-align: right;
    white-space: nowrap;
 }
 
+/* title "EXORCIST" */
 h1{
     font-family: 'Playfair Display', serif;
     color:rgba(165, 128, 203, 0.736);
-     position: absolute;/* permite moverlo libremente */
-    top: 72.5%;/* distancia desde la parte superior de la página */
-    left: 50%;  
+     position: absolute; /*allows it to be moved freely*/
+    top: 72.5%; /*distance from the top of the page*/
+    left: 50%;  /*horizontal reference point*/
     font-size:55px;
     letter-spacing:0ch;  
-    text-decoration: bold; /* punto de referencia horizontal */
+    text-decoration: bold; 
 
-    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    transform: translateX(-50%);/*centers exactly horizontally*/
     text-align: center;
     white-space: nowrap;
     text-shadow:
-        1px 1px 0 #6f6074,   /* Sombra abajo-derecha */
-        1px 1px 0 #6f6074,  /* Sombra abajo-izquierda */
-        1px 1px 0 #6f6074,  /* Sombra arriba-derecha */
-        1px 1px 0 #6f6074; /* Sombra arriba-izquierda */
+        1px 1px 0 #6f6074,   /*Bottom-right shadow*/
+        1px 1px 0 #6f6074,  /*Bottom-left shadow*/
+        1px 1px 0 #6f6074,  /*Top-right shadow*/
+        1px 1px 0 #6f6074;  /*Top-left shadow*/
 }
+
+    /* name of the author */
 h3{
-    /* 1. Fuente y color (como el título) */
     font-family: 'Franklin Gothic Condensed', Arial, sans-serif;
     color: white; 
     text-transform: uppercase;
     
-    /* 2. Tamaño y espaciado (más pequeño que el título) */
-    font-size: 1.3rem; /* O el tamaño que consideres adecuado */
+   /*Size and spacing (smaller than the title) */
+    font-size: 1.3rem;  /*size*/
     letter-spacing: 0px;
     word-spacing: 0px;
     
-    /* 3. Posicionamiento (Centrado justo encima del título) */
+    /*Positioning (Centered directly above the title) */
     position: absolute;
-    top: 76%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
+    top: 76%; /* Adjust this distance so that it's directly above h1 */
     left: 50%;
-    transform: translateX(-50%); /* Centrado perfecto */
-    margin: 0; /* Elimina el margen predeterminado del h3 */
-    width: 49%; /* Asegura que el centrado funcione bien */
+    transform: translateX(-50%); /* Perfectly centered */
+    margin: 0;/* Removes the default margin of the h3 */
+    width: 49%; /* Ensures that centering works properly */
     text-align: center;
     white-space: nowrap;
     font-weight: 1;
 }
-
+  /* line underlining "Version You've Never Seen" */
 .underlined {
     font-family: Arial, sans-serif;
-     text-decoration: underline;        /* subraya el texto */
+     text-decoration: underline;  /* underlines the text */
     text-underline-offset: 5px;
     text-decoration-thickness: 1.2px;   
 }
-
-.eslogan {
-    position: absolute;/* permite moverlo libremente */
+/* phrase "The Scariest Movie Of All Time Has Returned" */
+.slogan {
+    position: absolute;/* allow to move it freely */
     font-size: 15px;
-    top: 6%;/* distancia desde la parte superior de la página */
-    left: 48%;/* punto de referencia horizontal */
-    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    top: 6%;/* distance from the top of the page */
+    left: 48%;/* horizontal reference point */
+    transform: translateX(-50%); /* Centers exactly horizontally */
     text-align: center;
     font-family:  Arial, sans-serif;
     white-space: nowrap;
     color: white;
     text-transform: capitalize;
 }
-
-.subeslogan {
+/* phrase "In A Version You've Never Seen" */
+.subslogan {
     position: absolute;
     font-size:15px;
-    top: 11%;                  /* un poco más abajo que el h2 */
+    top: 11%;  /* a little lower than the slogan */
     left: 48%;
     transform: translateX(-50%);
     text-align: center;
@@ -140,65 +143,68 @@ h3{
     color: white;
     text-transform: capitalize;
 }
+ /* director (below the title "EXORCIST") */
 p.director{
     font-family: 'Franklin Gothic Condensed', Arial, sans-serif;
     color: white; 
     text-transform: uppercase;
 
-     /* 2. Tamaño y espaciado (más pequeño que el título) */
-    font-size: 1.3rem; /* O el tamaño que consideres adecuado */
+     /*Size and spacing (smaller than the title) */
+    font-size: 1.3rem; /*size */
    
     letter-spacing: 0px;
     word-spacing: 0px;
     
-    /* 3. Posicionamiento (Centrado justo encima del título) */
+   /* Positioning (Centered directly above the title) */
     position: absolute;
-    top: 86%; /* Ajusta esta distancia para que quede justo encima de tu h1 */
+    top: 86%; /* Adjust this distance so that it's directly above h1 */
     left: 49%;
-    transform: translateX(-50%); /* Centrado perfecto */
-    margin: 0; /* Elimina el margen predeterminado del h3 */
+    transform: translateX(-50%); /* Perfectly centered */
+    margin: 0; /* Removes the default margin of the h3 */
     text-align: right;
 }
+ /* letters smaller than the other in the credits (director part)*/
 .small{
 color:gray;
 font-size:0.8rem;
 }
-
+ /* letters smaller than the other in the credits (credits part)*/
 .small2{
 color:gray;
 font-size: 55%;
 }
-
+ /* links to other pages */
+ /* novel */
 .links1 > a{
     position: absolute;
     font-size: 12px;
-    top: 95%;/* distancia desde la parte superior de la página */
-    left: 20%;/* punto de referencia horizontal */
-    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    top: 95%; /* distance from the top of the page */
+    left: 20%; /* horizontal reference point */
+    transform: translateX(-50%); /* Centers exactly horizontally */
     text-align: center;
     font-family:  Arial, sans-serif;
     white-space: nowrap;
     color: white;
 }
-
+/* Rotten Tomatoes Review */
 .links2 > a{
     position: absolute;
     font-size: 12px;
-    top: 95%;/* distancia desde la parte superior de la página */
-    left: 50%;/* punto de referencia horizontal */
-    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    top: 95%;/* distance from the top of the page */
+    left: 50%;/* horizontal reference point */
+    transform: translateX(-50%); /* Centers exactly horizontally */
     text-align: center;
     font-family:  Arial, sans-serif;
     white-space: nowrap;
     color: white;
 }
-
+/* The Exorcist Reviews */
 .links3 > a{
     position: absolute;
     font-size: 12px;
-    top: 95%;/* distancia desde la parte superior de la página */
-    left: 80%;/* punto de referencia horizontal */
-    transform: translateX(-50%); /* centra exactamente horizontalmente */
+    top: 95%;/* distance from the top of the page */
+    left: 80%;/* horizontal reference point */
+    transform: translateX(-50%); /* Centers exactly horizontally */
     text-align: center;
     font-family:  Arial, sans-serif;
     white-space: nowrap;
