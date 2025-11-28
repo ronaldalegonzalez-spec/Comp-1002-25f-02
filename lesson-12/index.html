@@ -4,7 +4,8 @@
 		<meta charset="utf-8" />
 		<title>Image Gallery | Lighting Technology</title>
 		<!-- STEP B: Add some EMBEDDED JavaScript below that generates an alert dialog whenever the page is loaded or refreshed -->
-
+		<!-- <script src="js/external.js" async>// NO ANY CODE HERE!</script> -->
+		 <script src="js/gallery.js"></script>
 		<!-- STEP C: Move the above EMBEDDED JavaScript to the end of this file, just before the close of the BODY element -->
 		<style type="text/css">
 			@import url("css/styles.css");
@@ -25,7 +26,7 @@
 				</li>
 			</ul>
 			<!-- STEP A: Add some INLINE JavaScript that generates an alert dialog when the below image is clicked -->
-			<img id="placeholder" src="images/incandescent.jpg" alt="Incandescent bulb" />
+			<img id="placeholder" src="images/incandescent.jpg" alt="Incandescent bulb" onclick="alert('Inline JavaScript is working!')"/>
 			<p id="description">Click on one of the above links for more information.</p>
 		</div>
 		<!--
@@ -41,5 +42,9 @@
 
 		<!-- STEP E: When this HTML page is reloaded, it will produce an error in the console of the browser - create this new JavaScript file, name it 'external.js', and put it in the '/js' folder - the file should contain a third alert method -->
 
+		<!-- <script>
+			//Embedded javaScript
+			alert("Emdded JavaScript is running!");
+		</script> -->
 	</body>
 </html>
