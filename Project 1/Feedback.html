@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remington Standard Official Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="javascript" href="js/JavaScript.js">
+    <link rel="icon" href="img/icon_Remintong_Standar.jpg">
+</head>
+<body>
+<h1>Feedback</h1>
+<h2>Opinions and comments</h2>
+<p>We care about our users' experience. Leave an honest review of your Remington Standard SmartType: your feedback helps others and allows us to improve.</p>
+<section>
+    <h3>Featured reviews</h3>
+    <article>
+        <h4>Jane D</h4>
+        <p><strong>Rating:</strong> 5/5</p>
+        <p>"The Remington Standard SmartType has transformed my writing process. The tactile feedback is incredible, and I love the vintage feel. Highly recommended!"</p>
+    </article>
+    <article>
+        <h4>Mark S.</h4>
+        <p><strong>Rating:</strong> 4/5</p>
+        <p>"A fantastic typewriter with great build quality. My only gripe is that the ink ribbon could last longer, but overall, it's a joy to use."</p>
+    </article>
+</section>
+<section>
+    <h3>Submit your feedback</h3>
+    <form action="submit_feedback.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating" required>
+            <option value="">Select</option>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+        </select><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+</section>
+
+</body>
+</html>

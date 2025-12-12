@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remington Standard Official Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icon_Remintong_Standar.jpg">
+</head>
+
+<body id="login-body">
+
+    <header id="login-header" class="header-box">
+        <img src="img/icon_Remintong_Standar.jpg" alt="Remington Standard Logo" id="logo-image">
+        <h1 id="login-title" class="title-box">User Login</h1>
+    </header>
+
+    <main id="login-main">
+
+        <form id="login-form" class="form-container" action="login_process.php" method="post">
+
+            <!-- USER INFORMATION -->
+            <fieldset class="login-fieldset" id="user-info-box">
+                <legend class="legend-title">User Registration</legend>
+
+                <label for="name" class="label-text">Name:</label>
+                <input type="text" id="name" name="name" class="input-text" required>
+
+                <label for="lastname" class="label-text">Lastname(s):</label>
+                <input type="text" id="lastname" name="lastname" class="input-text" required>
+
+                <label for="email" class="label-text">Email:</label>
+                <input type="email" id="email" name="email" class="input-text" required>
+
+                <label for="address" class="label-text">Address:</label>
+                <input type="text" id="address" name="address" class="input-text" placeholder="Street, number, city, country" required>
+            </fieldset>
+
+            <!-- PAYMENT INFORMATION -->
+            <fieldset class="login-fieldset" id="payment-box">
+                <legend class="legend-title">Payment Method</legend>
+
+                <label for="payment" class="label-text">Select a method:</label>
+
+                <select id="payment" name="payment" class="select-input" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="credit">Credit card</option>
+                    <option value="debit">Debit card</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+
+                <!-- CREDIT / DEBIT CARD INFO -->
+                <div id="card-info" class="hidden-section">
+                    <label for="cardNumber" class="label-text">Card number:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" class="input-text" maxlength="16">
+
+                    <label for="expiration" class="label-text">Expiration date:</label>
+                    <input type="text" id="expiration" name="expiration" class="input-text" placeholder="MM/YYYY" maxlength="6">
+
+                    <label for="cvv" class="label-text">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" class="input-text" maxlength="3" placeholder="123">
+                </div>
+
+                <!-- PAYPAL INFO -->
+                <div id="paypal-info" class="hidden-section">
+                </div>
+            </fieldset>
+
+            <!-- SUBMIT BUTTON And REset BUton-->
+            <button type="submit" id="login-submit" class="btn-submit">Login</button>
+
+             <button type="reset" id="login-reset" class="btn-reset">Reset</button>
+
+             <a href="index.html" id="back-home-link" class="back-home-link">Back to Home</a>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

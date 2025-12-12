@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+/* -------------------------------------------
+   GENERAL STYLE — Vintage Modern Look
+-------------------------------------------- */
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* fondo oscuro */
+    color: #f2f2f2; /* texto claro */
+    font-family: "Courier New", Courier, monospace; /* tipografía estilo máquina */
+    line-height: 1.6;
+}
+
+/* -------------------------------------------
+   HEADER
+-------------------------------------------- */
+#logo-image {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+    border: 2px solid #c9a857;
+}
+
+
+#main-header {
+    background-color: #1b1b1b;
+    border-bottom: 2px solid #c9a857; /* dorado */
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    color: #c9a857; /* dorado */
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    font-family: "Georgia", serif; /* tipografía elegante */
+    
+}
+
+.site-subtitle {
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* -------------------------------------------
+   NAVIGATION
+-------------------------------------------- */
+#main-nav {
+    margin-top: 15px;
+    margin-right:5px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #c9a857;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+    text-transform:uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #c9a857;
+}
+
+/* -------------------------------------------
+   CONTENT LAYOUT (Main + Aside)
+-------------------------------------------- */
+.intro-text::first-letter {
+    font-size: 3rem;        /* tamaño grande */
+    color: #c9a857;         /* dorado o el color que quieras */
+    font-weight: bold;      /* opcional */
+    float: left;            /* hace que se vea estilo capitular */
+    padding-right: 6px;     /* espacio a la derecha */
+    line-height: 0.9;       /* ajuste visual */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#content-wrapper {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+}
+
+/* MAIN SECTION */
+#main-content {
+    flex: 3; /* más espacio */
+    padding-right: 20px;
+    border-right: 2px solid #c9a85755; /* dorado suave */
+}
+
+.section-title {
+    color: #c9a857;
+    border-bottom: 1px solid #c9a857;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.feature-list li,
+.included-list li {
+    margin-bottom: 8px;
+}
+
+.text-paragraph {
+    margin-bottom: 15px;
+    text-indent:30px;
+}
+
+/* -------------------------------------------
+   ASIDE — Right Column
+-------------------------------------------- */
+#product-aside {
+    flex: 1; /* columna estrecha */
+    padding-left: 20px;
+}
+
+#product-image {
+    width: 100%;
+    border: 2px solid #c9a857;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.aside-title {
+    color: #c9a857;
+    margin-top: auto;
+    margin-bottom: 10px;
+    text-align:center;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.aside-subtitle {
+    color: #c9a857cc;
+    margin-top: 20px;
+}
+
+/* -------------------------------------------
+   PRICE & BUTTON
+-------------------------------------------- */
+.price-text {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* BOTÓN DE COMPRA EN GRIS */
+#buy-button {
+    background-color: #555; /* gris */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#buy-button:hover {
+    background-color: #777; /* gris más claro */
+}
+
+/* -------------------------------------------
+   RESPONSIVE — móvil
+-------------------------------------------- */
+@media (max-width: 900px) {
+    #content-wrapper {
+        flex-direction: column;
+    }
+
+    #main-content {
+        border-right: none;
+        border-bottom: 2px solid #c9a85755;
+        padding-bottom: 20px;
+    }
+}
+
+/*MOBILE 320px */
+@media (max-width: 320px) {
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;      /* Centra horizontal*/
+        width: 100%;
+    }
+
+
+    #main-content {
+        border-right: none;
+        border-bottom: 2px solid #c9a85755;
+        padding-bottom: 15px;
+    }
+
+    #login-submit {
+        background-color: #c8a046;
+        color: #1b1b1b;
+        padding: 10px 20px;
+        border: none;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        margin-top: 12px;
+        margin-left:30px;
+        width: 90%;
+    }
+
+    #login-reset {
+        background-color: #777;
+        color: #f2f2f2;
+        padding: 10px 20px;
+        border: none;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left:30px;
+        width: 90%;
+    }
+
+    #back-home-link {
+    text-align: center;
+    display: block;
+    margin: 25px auto 0 auto; 
+    color: #c8a046;
+    text-decoration: none;
+    }
+}
+/* ===== LOGIN PAGE BASE ===== */
+
+#login-body {
+    background-color: #0e0e0e;          /* Fondo oscuro */
+    color: #e5e5e5;                     /* Texto claro */
+    font-family: "Georgia", serif;      /* Estilo vintage */
+    padding: 40px;
+}
+
+/* ===== HEADER + TITLE BOX ===== */
+
+#login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#logo-image {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #c8a046;          /* Dorado */
+}
+
+/* Título con borde dorado */
+#login-title.title-box {
+    display: inline-block;
+    border: 3px solid #c8a046;
+    padding: 10px 25px;
+    margin-top: 15px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* ===== FORM CONTAINER ===== */
+
+.form-container {
+    background-color: #1b1b1b;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #c8a046;
+    border-radius: 8px;
+}
+
+/* Fieldsets */
+.login-fieldset {
+    border: 2px solid #c8a046;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+/* Leyenda */
+.legend-title {
+    color: #c8a046;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+/* Etiquetas */
+.label-text {
+    font-size: 1rem;
+    color: #e5e5e5;
+    display: block;
+    margin-top: 10px;
+    scroll-margin-bottom: 5px;
+}
+
+ /* botons submit and reset */
+ #login-submit{
+    background-color: #c8a046;
+    color: #1b1b1b;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 50px;
+    transition: background-color 0.3s;
+    width: 30%;
+}
+
+#login-reset{
+    background-color: #777;
+    color: #f2f2f2;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+    width: 30%;
+}
+
+#back-home-link{
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 30px;
+    color: #c8a046;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*  ABOUT PAGE — LAYOUT + ESTILO GENERAL   */
+/* ---------------------------------------- */
+
+#about-body {
+    background-color: #111;
+    color: #f2f2f2;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- TITLE WITH GOLDEN BOX ---------- */
+#about-header {
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
+#about-title {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #c8a046;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: #c8a046;
+}
+
+/* ---------- MAIN LAYOUT (TEXT LEFT + IMAGE RIGHT) ---------- */
+#about-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 40px;
+}
+
+/* Left Column (Text Sections) */
+.section {
+    width: 65%;
+}
+
+/* ---------- TEXT STYLE ---------- */
+.text-paragraph {
+    text-indent: 30px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.section-title {
+    color: #c8a046;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c8a04655;
+    padding-bottom: 5px;
+}
+
+/* Feature List */
+.feature-list {
+    list-style: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.feature-item {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+/* ----------  IMAGE STYLE  ---------- */
+
+.about-image {
+    width: 100%;
+    max-width: 420px;
+    margin: 20px auto 30px auto;
+    display: block;
+    border: 2px solid #c8a046;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000080;
+}
+
+.page-title {
+    font-family: "Georgia", serif;
+    font-size: 2.4rem;
+    color: #c8a046;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px #00000070;
+    width: 10;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    padding-bottom:1%;
+}

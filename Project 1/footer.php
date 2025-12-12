@@ -1,0 +1,12 @@
+<footer>
+
+<h2>Direct contact</h2>
+<p>📧email: support@remingtonsmarttype.com</p>
+
+<p>📞Phone: +1 (800) 555-2742 — Monday to Friday, 9:00 AM–5:00 PM</p>
+
+<p>📍482 Remington Industrial Road, Ilion, NY, USA</p>
+
+<p>© Remington Heritage Co. — All rights reserved.</p>
+
+</footer>
