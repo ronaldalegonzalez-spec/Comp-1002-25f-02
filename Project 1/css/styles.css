@@ -80,6 +80,10 @@ html {
     border-bottom: 1px solid #c9a857;
 }
 
+#nav-support {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #c9a857;
+}
 /* -------------------------------------------
    CONTENT LAYOUT (Main + Aside)
 -------------------------------------------- */
@@ -105,6 +109,7 @@ html {
     flex: 3; /* más espacio */
     padding-right: 20px;
     border-right: 2px solid #c9a85755; /* dorado suave */
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .section-title {
@@ -118,11 +123,13 @@ html {
 .feature-list li,
 .included-list li {
     margin-bottom: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .text-paragraph {
     margin-bottom: 15px;
     text-indent:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* -------------------------------------------
@@ -195,13 +202,13 @@ html {
 }
 
 /*MOBILE 320px */
-@media (max-width: 320px) {
+@media (max-width: 426px) {
 
     form {
         display: flex;
         flex-direction: column;
         align-items: center;      /* Centra horizontal*/
-        width: 100%;
+        width: 90%;
     }
 
 
@@ -220,7 +227,7 @@ html {
         border-radius: 5px;
         margin-top: 12px;
         margin-left:30px;
-        width: 90%;
+        width: 80%;
     }
 
     #login-reset {
@@ -238,11 +245,28 @@ html {
     #back-home-link {
     text-align: center;
     display: block;
-    margin: 25px auto 0 auto; 
+    margin: 15px auto 0 auto;
     color: #c8a046;
     text-decoration: none;
     }
 }
+
+/* =========================================
+   RESPONSIVE — CORPORATE
+========================================= */
+
+@media (max-width: 900px) {
+    #corporate-content {
+        flex-direction: column;
+    }
+
+    #corporate-main {
+        border-right: none;
+        border-bottom: 2px solid #c9a85755;
+        padding-bottom: 20px;
+    }
+}
+
 /* ===== LOGIN PAGE BASE ===== */
 
 #login-body {
@@ -399,14 +423,6 @@ html {
     font-size: 1.1rem;
 }
 
-.section-title {
-    color: #c8a046;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #c8a04655;
-    padding-bottom: 5px;
-}
-
 /* Feature List */
 .feature-list {
     list-style: square;
@@ -418,12 +434,20 @@ html {
     margin-bottom: 12px;
     line-height: 1.6;
 }
+.section-title {
+    font-family: "Georgia", serif;
+    font-size: 1.8rem;
+    color: #c8a046;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c8a04655;
+    padding-bottom: 5px;
+}
 /* ----------  IMAGE STYLE  ---------- */
 
 .about-image {
     width: 100%;
     max-width: 420px;
-    margin: 20px auto 30px auto;
+    margin: 20px auto 10px auto;
     display: block;
     border: 2px solid #c8a046;
     border-radius: 10px;
@@ -444,4 +468,278 @@ html {
     margin-right: auto;
     border-bottom-style: solid;
     padding-bottom:1%;
+}
+
+/* =========================================
+   SUPPORT PAGE — SPECIFIC STYLES
+========================================= */
+
+#support-body {
+    background-color: #111;
+    color: #f2f2f2;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Main layout */
+#support-content {
+    display: flex;
+    gap: 40px;
+    padding: 30px 40px;
+}
+
+/* Main text area */
+#support-main {
+    flex: 3;
+    padding-right: 20px;
+    border-right: 2px solid #c9a85755;
+}
+
+/* FAQ list */
+#faq-section ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#faq-section li {
+    margin-bottom: 20px;
+}
+
+#faq-section strong {
+    color: #c9a857;
+    font-size: 1.05rem;
+}
+
+/* Warranty list */
+#warranty-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Aside contact box */
+#support-aside {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #c9a85755;
+    border-radius: 8px;
+    background-color: #1b1b1b;
+}
+
+/* Aside text spacing */
+#support-aside .text-paragraph {
+    text-indent: 0;
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   CORPORATE PAGE — SPECIFIC STYLES
+========================================= */
+
+#corporate-body {
+    background-color: #111;
+    color: #f2f2f2;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Main layout */
+#corporate-content {
+    display: flex;
+    gap: 40px;
+    padding: 30px 40px;
+}
+
+/* Main column */
+#corporate-main {
+    flex: 3;
+    padding-right: 25px;
+    border-right: 2px solid #c9a85755;
+}
+
+/* Intro paragraph */
+.corporate-intro .text-paragraph {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+/* Mission spacing */
+#mission-section {
+    margin-top: 30px;
+}
+
+/* History timeline feel */
+#history-section .text-paragraph {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 2px solid #c9a85755;
+}
+
+/* Emphasize years */
+#history-section strong {
+    color: #c9a857;
+    font-weight: bold;
+}
+
+/* Aside box */
+#corporate-aside {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #c9a85755;
+    border-radius: 8px;
+    background-color: #1b1b1b;
+}
+
+/* Aside text */
+#corporate-aside .text-paragraph {
+    text-indent: 0;
+    margin-bottom: 18px;
+}
+
+.image-legend{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #c9a857cc;
+    margin-top: 1px;
+    font-style: italic;
+}
+
+/* =========================================
+   FEEDBACK PAGE — REVIEWS & FORM
+========================================= */
+
+#feedback-body {
+    background-color: #111;
+    color: #f2f2f2;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Intro text */
+.feedback-intro {
+    max-width: 900px;
+    text-align: center;
+    margin: 20px auto 30px auto;
+    font-size: 1.1rem;
+}
+
+/* =========================================
+   REVIEWS SECTION
+========================================= */
+
+#reviews-section {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+}
+
+.review-article {
+    background-color: #1b1b1b;
+    border: 2px solid #c9a85755;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+/* Header (avatar + name) */
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.review-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #c9a857;
+    object-fit: cover;
+}
+
+.review-author {
+    color: #c9a857;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.review-rating {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    font-style: italic;
+    line-height: 1.7;
+}
+
+/* =========================================
+   FEEDBACK FORM
+========================================= */
+
+#feedback-form-section {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+}
+
+.feedback-form {
+    background-color: #1b1b1b;
+    border: 2px solid #c9a857;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* Labels */
+.feedback-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #c9a857;
+}
+
+/* Inputs, select & textarea */
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #111;
+    border: 1px solid #c9a85755;
+    color: #f2f2f2;
+    font-family: Georgia, "Times New Roman", serif;
+    border-radius: 4px;
+}
+
+/* Textarea */
+.feedback-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Submit button */
+.feedback-form input[type="submit"] {
+    margin-top: 25px;
+    background-color: #c9a857;
+    color: #1b1b1b;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #e0c36a;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+    .feedback-intro {
+        padding: 0 15px;
+    }
+
+    .review-article,
+    .feedback-form {
+        padding: 20px;
+    }
 }
