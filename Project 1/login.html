@@ -2,83 +2,90 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remington Standard Official Website</title>
+    <title>remington standard login</title>
+
+    <!-- link to css -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/icon_Remintong_Standar.jpg">
+
+    <!-- favicon -->
+    <link rel="icon" href="img/icon_remintong_standar.jpg">
 </head>
 
 <body id="login-body">
 
+    <!-- header with logo and title -->
     <header id="login-header" class="header-box">
-        <img src="img/icon_Remintong_Standar.jpg" alt="Remington Standard Logo" id="logo-image">
-        <h1 id="login-title" class="title-box">User Login</h1>
+        <img src="img/icon_remintong_standar.jpg" alt="remington standard logo" id="logo-image">
+        <h1 id="login-title" class="title-box">user login</h1>
     </header>
 
+    <!-- main login form -->
     <main id="login-main">
 
         <form id="login-form" class="form-container">
 
-            <!-- USER INFORMATION -->
+            <!-- user information -->
             <fieldset class="login-fieldset" id="user-info-box">
-                <legend class="legend-title">User Registration</legend>
+                <legend class="legend-title">user registration</legend>
 
-                <label for="name" class="label-text">Name:</label>
+                <label for="name" class="label-text">name</label>
                 <input type="text" id="name" name="name" class="input-text" required>
 
-                <label for="lastname" class="label-text">Lastname(s):</label>
+                <label for="lastname" class="label-text">lastname</label>
                 <input type="text" id="lastname" name="lastname" class="input-text" required>
 
-                <label for="email" class="label-text">Email:</label>
+                <label for="email" class="label-text">email</label>
                 <input type="email" id="email" name="email" class="input-text" required>
 
-                <label for="address" class="label-text">Address:</label>
-                <input type="text" id="address" name="address" class="input-text" placeholder="Street, number, city, country" required>
+                <label for="address" class="label-text">address</label>
+                <input type="text" id="address" name="address" class="input-text" placeholder="street number city country" required>
             </fieldset>
 
-            <!-- PAYMENT INFORMATION -->
+            <!-- payment information -->
             <fieldset class="login-fieldset" id="payment-box">
-                <legend class="legend-title">Payment Method</legend>
+                <legend class="legend-title">payment method</legend>
 
-                <label for="payment" class="label-text">Select a method:</label>
-
+                <label for="payment" class="label-text">select a method</label>
                 <select id="payment" name="payment" class="select-input" required>
-                    <option value="" disabled selected>Select an option</option>
-                    <option value="credit">Credit card</option>
-                    <option value="debit">Debit card</option>
-                    <option value="paypal">PayPal</option>
+                    <option value="" disabled selected>select an option</option>
+                    <option value="credit">credit card</option>
+                    <option value="debit">debit card</option>
+                    <option value="paypal">paypal</option>
                 </select>
 
-                <!-- CREDIT / DEBIT CARD INFO -->
+                <!-- credit / debit card info -->
                 <div id="card-info" class="hidden-section">
-                    <label for="cardNumber" class="label-text">Card number:</label>
+                    <label for="cardNumber" class="label-text">card number</label>
                     <input type="text" id="cardNumber" name="cardNumber" class="input-text" maxlength="16">
 
-                    <label for="expiration" class="label-text">Expiration date:</label>
-                    <input type="text" id="expiration" name="expiration" class="input-text" placeholder="MM/YYYY" maxlength="6">
+                    <label for="expiration" class="label-text">expiration date</label>
+                    <input type="text" id="expiration" name="expiration" class="input-text" placeholder="mm/yyyy" maxlength="6">
 
-                    <label for="cvv" class="label-text">CVV:</label>
+                    <label for="cvv" class="label-text">cvv</label>
                     <input type="text" id="cvv" name="cvv" class="input-text" maxlength="3" placeholder="123">
                 </div>
 
-                <!-- PAYPAL INFO -->
+                <!-- paypal info -->
                 <div id="paypal-info" class="hidden-section">
+                    <!-- paypal fields can go here if needed -->
                 </div>
             </fieldset>
 
-            <!-- SUBMIT BUTTON And REset BUton-->
-            <button type="submit" id="login-submit" class="btn-submit">Login</button>
+            <!-- submit and reset buttons -->
+            <button type="submit" id="login-submit" class="btn-submit">login</button>
+            <button type="reset" id="login-reset" class="btn-reset">reset</button>
 
-             <button type="reset" id="login-reset" class="btn-reset">Reset</button>
-
-             <a href="index.html" id="back-home-link" class="back-home-link">Back to Home</a>
+            <!-- link back to home -->
+            <a href="index.html" id="back-home-link" class="back-home-link">back to home</a>
 
         </form>
 
     </main>
-    
-<script src="js/JavaScript.js" defer></script>
+
+    <!-- js for login handling -->
+    <script src="js/JavaScript.js" defer></script>
 
 </body>
 </html>

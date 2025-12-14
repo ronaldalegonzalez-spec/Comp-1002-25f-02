@@ -1,61 +1,70 @@
+// feedback form script
+// handle user feedback submission
+
 const feedbackForm = document.getElementById("feedback-form");
 const reviewsSection = document.getElementById("reviews-section");
 
+// check if form and reviews section exist
 if (feedbackForm && reviewsSection) {
-    feedbackForm.addEventListener("submit", (event) => {
-        event.preventDefault(); // evita recargar la página
 
+    // form submit event
+    feedbackForm.addEventListener("submit", (event) => {
+        event.preventDefault(); // prevent page reload
+
+        // get values from form inputs
         const name = document.getElementById("feedback-name").value;
         const rating = document.getElementById("feedback-rating").value;
         const comments = document.getElementById("feedback-comments").value;
 
-        // Crear contenedor de review
+        // create review article container
         const reviewArticle = document.createElement("article");
         reviewArticle.classList.add("review-article");
 
-        // Crear div de header y clonar imagen de un review existente
+        // create review header and clone avatar image
         const reviewHeader = document.createElement("div");
         reviewHeader.classList.add("review-header");
 
-        // Copiar imagen de un review ya existente
+        // clone existing avatar image if available
         const existingAvatar = document.querySelector(".review-article .review-avatar");
         let avatarClone;
         if (existingAvatar) {
-            avatarClone = existingAvatar.cloneNode(true); // copia completa
+            avatarClone = existingAvatar.cloneNode(true); // full copy
         } else {
+            // fallback avatar if none exists
             avatarClone = document.createElement("img");
-            avatarClone.src = "img/Photo_perfil.png"; // fallback
+            avatarClone.src = "img/Photo_perfil.png";
             avatarClone.alt = "Profile picture";
             avatarClone.classList.add("review-avatar");
         }
 
         reviewHeader.appendChild(avatarClone);
 
-        // Crear nombre del autor
+        // create author name
         const author = document.createElement("h4");
         author.classList.add("review-author");
         author.textContent = name;
 
         reviewHeader.appendChild(author);
 
-        // Agregar header al review
+        // add header to review
         reviewArticle.appendChild(reviewHeader);
 
-        // Rating y comentario
+        // create rating paragraph
         const ratingP = document.createElement("p");
         ratingP.classList.add("review-rating");
         ratingP.innerHTML = `<strong>Rating:</strong> ${rating}/5`;
         reviewArticle.appendChild(ratingP);
 
+        // create comment paragraph
         const commentsP = document.createElement("p");
         commentsP.classList.add("review-text");
         commentsP.textContent = comments;
         reviewArticle.appendChild(commentsP);
 
-        // Agregar al final de la sección
+        // append review to reviews section
         reviewsSection.appendChild(reviewArticle);
 
-        // Limpiar formulario
+        // reset form
         feedbackForm.reset();
     });
 }

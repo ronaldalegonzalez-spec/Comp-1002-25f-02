@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-/* -------------------------------------------
-   GENERAL STYLE — Vintage Modern Look
--------------------------------------------- */
+/* general styles for the whole site, vintage modern look */
 html {
     margin: 0;
     padding: 0;
@@ -12,9 +10,8 @@ html {
     line-height: 1.6;
 }
 
-/* -------------------------------------------
-   HEADER
--------------------------------------------- */
+/* header logo style */
+
 #logo-image {
     width: 80px;
     height: auto;
@@ -24,47 +21,53 @@ html {
     border: 2px solid #c9a857;
 }
 
+/* main header container */
 
 #main-header {
     background-color: #1b1b1b;
-    border-bottom: 2px solid #c9a857; /* dorado */
+    border-bottom: 2px solid #c9a857;  /* gold line */
     padding: 20px;
     text-align: center;
 }
 
+/* site title in header */
 .site-title {
-    color: #c9a857; /* dorado */
+    color: #c9a857;
     font-size: 2.2rem;
     margin-bottom: 5px;
-    font-family: "Georgia", serif; /* tipografía elegante */
+    font-family: "Georgia", serif;
+    text-transform: capitalize;
     
 }
 
+/* site subtitle in header */
 .site-subtitle {
     color: #d9d9d9;
     font-size: 1.2rem;
     font-style: italic;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
 }
 
-/* -------------------------------------------
-   NAVIGATION
--------------------------------------------- */
+/* navigation menu container */
 #main-nav {
     margin-top: 15px;
     margin-right:5px;
 }
 
+/* nav list reset */
 .nav-list {
     list-style: none;
     padding: 0;
 }
 
+/* nav items in a row */
 .nav-list li {
     display: inline-block;
     margin: 0 15px;
 }
 
+/* links style */
 .nav-link {
     text-decoration: none;
     color: #c9a857;
@@ -75,71 +78,77 @@ html {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* hover effect for links */
 .nav-link:hover {
     color: #ffffff;
     border-bottom: 1px solid #c9a857;
 }
 
+/* support link in nav */
 #nav-support {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #c9a857;
 }
-/* -------------------------------------------
-   CONTENT LAYOUT (Main + Aside)
--------------------------------------------- */
+
+/* first letter of the paragraph*/
 .intro-text::first-letter {
-    font-size: 3rem;        /* tamaño grande */
-    color: #c9a857;         /* dorado o el color que quieras */
-    font-weight: bold;      /* opcional */
-    float: left;            /* hace que se vea estilo capitular */
-    padding-right: 6px;     /* espacio a la derecha */
-    line-height: 0.9;       /* ajuste visual */
+    font-size: 3rem;        
+    color: #c9a857;        
+    font-weight: bold;      
+    float: left;            
+    padding-right: 6px;     
+    line-height: 0.9;      
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
     
 }
 
+/* content wrapper for main and aside columns */
 #content-wrapper {
     display: flex;
     padding: 30px;
     gap: 40px;
 }
 
-/* MAIN SECTION */
+/* main content area */
 #main-content {
-    flex: 3; /* más espacio */
+    flex: 3; 
     padding-right: 20px;
-    border-right: 2px solid #c9a85755; /* dorado suave */
+    border-right: 2px solid #c9a85755;/* soft gold line */
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* section titles */
 .section-title {
     color: #c9a857;
     border-bottom: 1px solid #c9a857;
     padding-bottom: 5px;
     margin-bottom: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
 }
 
+/* lists in features or included items */
 .feature-list li,
 .included-list li {
     margin-bottom: 8px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* text paragraphs styling */
 .text-paragraph {
     margin-bottom: 15px;
     text-indent:30px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-/* -------------------------------------------
-   ASIDE — Right Column
--------------------------------------------- */
+/* aside column for product info */
 #product-aside {
-    flex: 1; /* columna estrecha */
+    flex: 1; 
     padding-left: 20px;
 }
 
+/* product image style */
 #product-image {
     width: 100%;
     border: 2px solid #c9a857;
@@ -147,6 +156,7 @@ html {
     margin-bottom: 10px;
 }
 
+/* aside titles */
 .aside-title {
     color: #c9a857;
     margin-top: auto;
@@ -154,24 +164,24 @@ html {
     text-align:center;
     font-size: 30px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
 }
 
+/* aside subtitles */
 .aside-subtitle {
     color: #c9a857cc;
     margin-top: 20px;
 }
 
-/* -------------------------------------------
-   PRICE & BUTTON
--------------------------------------------- */
+/* price text */
 .price-text {
     font-size: 1.1rem;
     margin-bottom: 15px;
 }
 
-/* BOTÓN DE COMPRA EN GRIS */
+/* buy button styling */
 #buy-button {
-    background-color: #555; /* gris */
+    background-color: #555; 
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -182,13 +192,12 @@ html {
     transition: 0.3s;
 }
 
+/* hover effect on buy button */
 #buy-button:hover {
-    background-color: #777; /* gris más claro */
+    background-color: #777;
 }
 
-/* -------------------------------------------
-   RESPONSIVE — móvil
--------------------------------------------- */
+/* responsive layout for smaller screens */
 @media (max-width: 900px) {
     #content-wrapper {
         flex-direction: column;
@@ -201,7 +210,7 @@ html {
     }
 }
 
-/*MOBILE 320px */
+/* mobile form adjustments */
 @media (max-width: 426px) {
 
     form {
@@ -251,10 +260,7 @@ html {
     }
 }
 
-/* =========================================
-   RESPONSIVE — CORPORATE
-========================================= */
-
+/* corporate responsive adjustments */
 @media (max-width: 900px) {
     #corporate-content {
         flex-direction: column;
@@ -267,29 +273,28 @@ html {
     }
 }
 
-/* ===== LOGIN PAGE BASE ===== */
-
+/* login page general styling */
 #login-body {
-    background-color: #0e0e0e;          /* Fondo oscuro */
-    color: #e5e5e5;                     /* Texto claro */
-    font-family: "Georgia", serif;      /* Estilo vintage */
+    background-color: #0e0e0e;          
+    color: #e5e5e5;                   
+    font-family: "Georgia", serif;      
     padding: 40px;
 }
 
-/* ===== HEADER + TITLE BOX ===== */
-
+/* login header */
 #login-header {
     text-align: center;
     margin-bottom: 30px;
 }
 
+/* login logo bigger */
 #logo-image {
     width: 120px;
     border-radius: 50%;
-    border: 2px solid #c8a046;          /* Dorado */
+    border: 2px solid #c8a046;         
 }
 
-/* Título con borde dorado */
+/* login title box */
 #login-title.title-box {
     display: inline-block;
     border: 3px solid #c8a046;
@@ -299,8 +304,7 @@ html {
     letter-spacing: 2px;
 }
 
-/* ===== FORM CONTAINER ===== */
-
+/* form container style */
 .form-container {
     background-color: #1b1b1b;
     padding: 30px;
@@ -325,7 +329,7 @@ html {
     padding: 0 10px;
 }
 
-/* Etiquetas */
+/* form-text */
 .label-text {
     font-size: 1rem;
     color: #e5e5e5;
@@ -334,7 +338,7 @@ html {
     scroll-margin-bottom: 5px;
 }
 
- /* botons submit and reset */
+ /* login buttons submit and reset*/
  #login-submit{
     background-color: #c8a046;
     color: #1b1b1b;
@@ -365,6 +369,7 @@ html {
     width: 30%;
 }
 
+/*comeback to home button*/
 #back-home-link{
     text-align: center;
     margin-top: 12px;
@@ -375,9 +380,7 @@ html {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-/*  ABOUT PAGE — LAYOUT + ESTILO GENERAL   */
-/* ---------------------------------------- */
-
+/* about page body */
 #about-body {
     background-color: #111;
     color: #f2f2f2;
@@ -386,7 +389,7 @@ html {
     padding: 0;
 }
 
-/* ---------- TITLE WITH GOLDEN BOX ---------- */
+/* about page header and title box */
 #about-header {
     text-align: center;
     padding: 40px 0 10px 0;
@@ -401,7 +404,7 @@ html {
     color: #c8a046;
 }
 
-/* ---------- MAIN LAYOUT (TEXT LEFT + IMAGE RIGHT) ---------- */
+/* about main layout with text left and images right */
 #about-main {
     display: flex;
     flex-direction: row;
@@ -415,7 +418,7 @@ html {
     width: 65%;
 }
 
-/* ---------- TEXT STYLE ---------- */
+/* paragraphs style */
 .text-paragraph {
     text-indent: 30px;
     line-height: 1.8;
@@ -423,7 +426,7 @@ html {
     font-size: 1.1rem;
 }
 
-/* Feature List */
+/* features list style */
 .feature-list {
     list-style: square;
     padding-left: 20px;
@@ -434,6 +437,8 @@ html {
     margin-bottom: 12px;
     line-height: 1.6;
 }
+
+/* section titles style */
 .section-title {
     font-family: "Georgia", serif;
     font-size: 1.8rem;
@@ -442,8 +447,8 @@ html {
     border-bottom: 2px solid #c8a04655;
     padding-bottom: 5px;
 }
-/* ----------  IMAGE STYLE  ---------- */
 
+/* about images style */
 .about-image {
     width: 100%;
     max-width: 420px;
@@ -454,6 +459,7 @@ html {
     box-shadow: 0 0 10px #00000080;
 }
 
+/* about page main title */
 .page-title {
     font-family: "Georgia", serif;
     font-size: 2.4rem;
@@ -470,31 +476,28 @@ html {
     padding-bottom:1%;
 }
 
-/* =========================================
-   SUPPORT PAGE — SPECIFIC STYLES
-========================================= */
-
+/* support page body */
 #support-body {
     background-color: #111;
     color: #f2f2f2;
     font-family: Georgia, "Times New Roman", serif;
 }
 
-/* Main layout */
+/* support content main layout */
 #support-content {
     display: flex;
     gap: 40px;
     padding: 30px 40px;
 }
 
-/* Main text area */
+/* main support column */
 #support-main {
     flex: 3;
     padding-right: 20px;
     border-right: 2px solid #c9a85755;
 }
 
-/* FAQ list */
+/* FAQ list  style*/
 #faq-section ul {
     list-style: square;
     padding-left: 20px;
@@ -509,13 +512,13 @@ html {
     font-size: 1.05rem;
 }
 
-/* Warranty list */
+/* Warranty list style*/
 #warranty-section ul {
     list-style: disc;
     padding-left: 20px;
 }
 
-/* Aside contact box */
+/* support aside box */
 #support-aside {
     flex: 1;
     padding: 20px;
@@ -524,37 +527,34 @@ html {
     background-color: #1b1b1b;
 }
 
-/* Aside text spacing */
+/* aside text style */
 #support-aside .text-paragraph {
     text-indent: 0;
     margin-bottom: 15px;
 }
 
-/* =========================================
-   CORPORATE PAGE — SPECIFIC STYLES
-========================================= */
-
+/* corporate page body */
 #corporate-body {
     background-color: #111;
     color: #f2f2f2;
     font-family: Georgia, "Times New Roman", serif;
 }
 
-/* Main layout */
+/* corporate main layout */
 #corporate-content {
     display: flex;
     gap: 40px;
     padding: 30px 40px;
 }
 
-/* Main column */
+/* main corporate column */
 #corporate-main {
     flex: 3;
     padding-right: 25px;
     border-right: 2px solid #c9a85755;
 }
 
-/* Intro paragraph */
+/* corporate intro paragraph */
 .corporate-intro .text-paragraph {
     font-size: 1.15rem;
     line-height: 1.8;
@@ -565,20 +565,19 @@ html {
     margin-top: 30px;
 }
 
-/* History timeline feel */
+/* History timeline effect */
 #history-section .text-paragraph {
-    margin-left: 15px;
-    padding-left: 15px;
-    border-left: 2px solid #c9a85755;
+    margin-left: 10px;
+    text-align: left;
 }
 
-/* Emphasize years */
+/* Emphasize years in history*/
 #history-section strong {
     color: #c9a857;
     font-weight: bold;
 }
 
-/* Aside box */
+/* corporate aside box */
 #corporate-aside {
     flex: 1;
     padding: 20px;
@@ -593,6 +592,7 @@ html {
     margin-bottom: 18px;
 }
 
+/* image legend */
 .image-legend{
     text-align: center;
     font-size: 0.9rem;
@@ -601,17 +601,14 @@ html {
     font-style: italic;
 }
 
-/* =========================================
-   FEEDBACK PAGE — REVIEWS & FORM
-========================================= */
-
+/* feedback page body */
 #feedback-body {
     background-color: #111;
     color: #f2f2f2;
     font-family: Georgia, "Times New Roman", serif;
 }
 
-/* Intro text */
+/* feedback intro text */
 .feedback-intro {
     max-width: 900px;
     text-align: center;
@@ -619,15 +616,13 @@ html {
     font-size: 1.1rem;
 }
 
-/* =========================================
-   REVIEWS SECTION
-========================================= */
-
+/* reviews section container */
 #reviews-section {
     max-width: 900px;
     margin: 0 auto 50px auto;
 }
 
+/* review article style */
 .review-article {
     background-color: #1b1b1b;
     border: 2px solid #c9a85755;
@@ -636,7 +631,7 @@ html {
     margin-bottom: 20px;
 }
 
-/* Header (avatar + name) */
+/* review header with avatar and name */
 .review-header {
     display: flex;
     align-items: center;
@@ -644,6 +639,7 @@ html {
     margin-bottom: 10px;
 }
 
+/* review avatar style */
 .review-avatar {
     width: 42px;
     height: 42px;
@@ -652,26 +648,26 @@ html {
     object-fit: cover;
 }
 
+/* review author name */
 .review-author {
     color: #c9a857;
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
 
+/* review rating text */
 .review-rating {
     font-size: 0.95rem;
     margin-bottom: 10px;
 }
 
+/* review text */
 .review-text {
     font-style: italic;
     line-height: 1.7;
 }
 
-/* =========================================
-   FEEDBACK FORM
-========================================= */
-
+/* feedback form container */
 #feedback-form-section {
     max-width: 900px;
     margin: 0 auto 60px auto;
@@ -684,7 +680,7 @@ html {
     padding: 30px;
 }
 
-/* Labels */
+/* feedback form labels */
 .feedback-form label {
     display: block;
     margin-top: 15px;
@@ -692,7 +688,7 @@ html {
     color: #c9a857;
 }
 
-/* Inputs, select & textarea */
+/* feedback inputs*/
 .feedback-form input[type="text"],
 .feedback-form input[type="email"],
 .feedback-form select,
@@ -706,7 +702,7 @@ html {
     border-radius: 4px;
 }
 
-/* Textarea */
+/* textarea adjustments */
 .feedback-form textarea {
     resize: vertical;
     min-height: 120px;
@@ -725,29 +721,24 @@ html {
     transition: background-color 0.3s;
 }
 
+/* hover for submit button in feedback form */
 .feedback-form input[type="submit"]:hover {
     background-color: #e0c36a;
 }
 
-/* =========================================
-   RESPONSIVE
-========================================= */
-
+/* responsive adjustments for feedback page */
 @media (max-width: 768px) {
     .feedback-intro {
-        padding: 0 15px;
+        padding: 0 15px; /*add horizontal padding on small screens */
     }
 
     .review-article,
     .feedback-form {
-        padding: 20px;
+        padding: 20px; /* reduce padding on small screens */
     }
 }
 
-/* ==========================
-   THANK YOU PAGE STYLING
-========================== */
-
+/* thank you message stlyling */
 #thankyou-body {
     background-color: #111; /* Fondo oscuro */
     color: #f2f2f2;         /* Texto claro */
@@ -760,6 +751,7 @@ html {
     padding: 20px;
 }
 
+/* thank you card container */
 #thankyou-container {
     background-color: #1b1b1b; /* Tarjeta ligeramente más clara */
     border: 2px solid #c8a046; /* Borde dorado */
@@ -770,11 +762,13 @@ html {
     box-shadow: 0 0 25px #00000080;
 }
 
+/* icon in thank you message */
 #thankyou-icon {
     width: 80px;
     height: 80px;
 }
 
+/* thank you title */
 #thankyou-title {
     color: #c8a046;
     font-size: 2.2rem;
@@ -782,12 +776,14 @@ html {
     text-shadow: 0 0 6px #00000070;
 }
 
+/* thank you message text */
 #thankyou-text {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 34px;
 }
 
+/* back home button */
 #back-home-button {
     display: inline-block;
     background-color: #c8a046;
@@ -799,13 +795,12 @@ html {
     transition: background-color 0.3s;
 }
 
+/* hover effect for back home button */
 #back-home-button:hover {
     background-color: #e5c85c;
 }
 
-/* ==========================
-   FOOTER STYLING
-========================== */
+/* footer part style */
 #main-footer {
     background-color: #1b1b1b;
     color: #f2f2f2;
@@ -816,6 +811,7 @@ html {
     margin-top:20px;
 }
 
+/* footer section title */
 .footer-title {
     color: #c8a046;
     font-size: 1.6rem;
@@ -824,22 +820,26 @@ html {
     letter-spacing: 1px;
 }
 
+/* contact lines */
 .footer-contact {
     font-size: 1rem;
     margin: 5px 0;
 }
 
+/* contact links */
 .footer-contact a {
     color: #c8a046;
     text-decoration: none;
     transition: 0.3s;
 }
 
+/* hover effect for contact links */
 .footer-contact a:hover {
     color: #fff;
     text-decoration: underline;
 }
 
+/* copyright text */
 .footer-copy {
     margin-top: 20px;
     font-size: 0.9rem;
