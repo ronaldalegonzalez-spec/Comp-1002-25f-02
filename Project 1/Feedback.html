@@ -72,35 +72,37 @@
 
 
     <!-- FEEDBACK FORM -->
-    <section id="feedback-form-section">
+<section id="feedback-form-section">
 
-        <h3 class="section-title">Submit your feedback</h3>
+    <h3 class="section-title">Submit your feedback</h3>
 
-        <form class="feedback-form" action="submit_feedback.php" method="post">
+    <form id="feedback-form" class="feedback-form">
 
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <label for="feedback-name">Name:</label>
+        <input type="text" id="feedback-name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="feedback-email">Email:</label>
+        <input type="email" id="feedback-email" name="email" required>
 
-            <label for="rating">Rating:</label>
-            <select id="rating" name="rating" required>
-                <option value="">Select</option>
-                <option value="5">5 - Excellent</option>
-                <option value="4">4 - Very Good</option>
-                <option value="3">3 - Good</option>
-                <option value="2">2 - Fair</option>
-                <option value="1">1 - Poor</option>
-            </select>
+        <label for="feedback-rating">Rating:</label>
+        <select id="feedback-rating" name="rating" required>
+            <option value="">Select</option>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+        </select>
 
-            <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments" required></textarea>
+        <label for="feedback-comments">Comments:</label>
+        <textarea id="feedback-comments" name="comments" required></textarea>
 
-            <input type="submit" value="Submit Feedback">
+        <input type="submit" value="Submit Feedback">
 
-        </form>
-    </section>
+    </form>
+</section>
 
+
+    <script src="js/Feedback.js" defer></script>
 </body>
 </html>
