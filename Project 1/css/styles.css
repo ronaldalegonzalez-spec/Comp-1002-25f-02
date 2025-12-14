@@ -743,3 +743,105 @@ html {
         padding: 20px;
     }
 }
+
+/* ==========================
+   THANK YOU PAGE STYLING
+========================== */
+
+#thankyou-body {
+    background-color: #111; /* Fondo oscuro */
+    color: #f2f2f2;         /* Texto claro */
+    font-family: Georgia, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#thankyou-container {
+    background-color: #1b1b1b; /* Tarjeta ligeramente más clara */
+    border: 2px solid #c8a046; /* Borde dorado */
+    border-radius: 15px;
+    padding: 40px 30px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 25px #00000080;
+}
+
+#thankyou-icon {
+    width: 80px;
+    height: 80px;
+}
+
+#thankyou-title {
+    color: #c8a046;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 6px #00000070;
+}
+
+#thankyou-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 34px;
+}
+
+#back-home-button {
+    display: inline-block;
+    background-color: #c8a046;
+    color: #1b1b1b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#back-home-button:hover {
+    background-color: #e5c85c;
+}
+
+/* ==========================
+   FOOTER STYLING
+========================== */
+#main-footer {
+    background-color: #1b1b1b;
+    color: #f2f2f2;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 2px solid #c8a046;
+    margin-top:20px;
+}
+
+.footer-title {
+    color: #c8a046;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-contact {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer-contact a {
+    color: #c8a046;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-contact a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #c8a046cc;
+}
